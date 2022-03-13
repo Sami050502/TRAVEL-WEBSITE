@@ -383,5 +383,6 @@ nav ul li a.active{
     .container
     {
     width:90%;
+    float:left;
     }
 }
