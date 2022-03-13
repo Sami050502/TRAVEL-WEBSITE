@@ -280,7 +280,7 @@ nav ul li a.active{
      position:fixed;
   }
 .search-box{
-  left:50%;
+  left:30%;
   display: flex;
   font-size: 1.5rem;
   padding: 20px;
