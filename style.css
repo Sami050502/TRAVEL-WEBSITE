@@ -189,10 +189,7 @@ nav ul li a.active{
   display:fixed;
 
 }
-.home .content p{
-color: #fff;
-text-shadow:2px 1px 1px black;
-  }
+
 body, html{
     overflow-x:hidden;
     }
