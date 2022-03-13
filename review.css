@@ -367,6 +367,7 @@ nav ul li a.active{
   background: none;
   color: red;
 }
+
 .comments{
     font-size:50%;
   }
@@ -379,5 +380,4 @@ nav ul li a.active{
  .client-comment p{
      font-size:80%;
 }
-   
 }
