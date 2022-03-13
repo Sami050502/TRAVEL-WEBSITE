@@ -367,4 +367,7 @@ nav ul li a.active{
   background: none;
   color: red;
 }
+    .comments{
+    font-size:50%;
+    }
 }
