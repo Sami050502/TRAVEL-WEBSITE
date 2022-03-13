@@ -387,8 +387,8 @@ nav ul li a.active{
     .star-widget label{
   font-size: 30px;
   color: #444;
-  padding: 10px;
-float:down;
+  padding: 50px;
+  float:right;
         
   transition: all 0.2s ease;
 }
