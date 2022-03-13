@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Adventeria tour</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+ <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+     <nav>
+       
+        <div class="logo"><img src="images/logoad.jpg" height="60px" width="100%" alt=""></div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="place.html">PLACES</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="review.html">REVIEWS</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+        </ul>
+     </nav>
+
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>WELCOME</h3>
+        <p> Let's explore India...<br>
+            Have an amazing travel experience with ADVENTERIA
+</p>
+        
+        <a href="place.html" class="btn">EXPLORE</a>
+    </div>
+
+    <div class="swiper-container image-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/pg1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/pg2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/pg3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/pg4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/pg5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/pg6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/pg7.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/pg8.jpg" alt=""></div>
+           
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+<!-- script part  -->
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+
+var swiper = new Swiper(".image-slider", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2,
+        slideShadows: true,
+    },
+    loop:true,
+    autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+    },
+    
+});    
+</script>
+</section>
+
+    
+</body>
+</html>

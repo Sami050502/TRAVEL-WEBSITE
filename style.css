@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+nav .logo{
+  font-size: 33px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 15px;
+ 
+}
+
+.logo img{
+   border-radius: 40px;
+}
+
+nav{
+
+height: 70px;
+background: black;
+opacity: 1;
+display:flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 50px 0px 100px;
+}
+nav ul{
+display:flex;
+list-style: none;
+}
+nav ul li{
+  margin:0 5px;
+
+}
+nav ul li a{
+  color:#fff;
+  font-size: 18px;
+  font-weight:500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding:8px 10px;
+  transition: all 0.3s ease;
+}
+nav ul li a:hover,
+nav ul li a.active{
+
+  box-shadow: 0 0 3px 0 inset,0 0 10px 0px red;
+  border:3px solid transparent;
+  border-radius: 30px;
+  color: red;
+  padding: 8px 10px;
+}
+nav .menu-btn i{
+color:#fff;
+font-size:22px;
+cursor:pointer;
+display:none;
+
+}
+
+#click{
+  display: none;
+}
+
+section{
+  padding:3rem 9%;
+}
+
+.btn{
+  display: inline-block;
+  padding:.7rem 3rem;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background:brown;
+  color:#fff;
+  cursor: pointer;
+  font-size: 3rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  box-shadow: 2px 2px 4px black;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+}
+.home{
+  background: url(images/home-bg-3.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.home .content{
+  padding-top: 5rem;
+  max-width:70rem;
+  margin:0 auto;
+}
+
+.home .content h3{
+  margin-bottom: 20px; 
+  font-size: 6.5rem;
+  color:brown;
+  text-shadow: 4px 2px white;
+}
+
+.home .content p{
+  font-size: 3rem;
+  color:#4e4e4e;
+  padding:1rem 0;
+  text-shadow: 2px 2px 1px white;
+}
+
+.home .swiper-container {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+
+.home .swiper-slide {
+  width: 30rem;
+  height: 40rem;
+ 
+}
+
+.home .swiper-slide img {
+  display: no-repeat;
+  width: 100%;
+  height: 100%;
+   border-radius: 10px; 
+   box-sizing: 10px white;
+}
+
+@media(max-width: 940px)
+{
+  nav .menu-btn i{
+    display: block;
+  }
+
+#click:checked ~ .menu-btn i:before{
+    content:"\f00d";
+  }
+nav ul{
+  position:fixed;
+  top:70px;
+  left:-100%;
+  background:#111;
+  height:100vh;
+  width:100%;
+  display:block;
+  text-align: center;
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+#click:checked ~ ul{
+  left:0%;
+}
+nav ul li{
+  margin: 40px 0;
+}
+nav ul li a{
+  font-size: 20px;
+  display: block;
+}
+nav ul li a:hover,
+nav ul li a.active{
+
+  box-shadow: none;
+  border:none;
+  background: none;
+  color: red;
+}
+.btn{
+  margin-bottom: 250px;
+}
+.home{
+  display:fixed;
+  background: url(images/pg100.jpg);
+}
+.home .content p{
+color: #fff;
+text-shadow:2px 1px 1px black;
+  }
+}

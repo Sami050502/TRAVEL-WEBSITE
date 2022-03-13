@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Adventeria tour</title>
+    <link rel="stylesheet" href="review.css">
+ <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+     <nav>
+       
+        <div class="logo"><img src="images/logoad.jpg" height="60px" width="100%" alt=""></div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="place.html">PLACES</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a class="active" href="review.html">REVIEWS</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+        </ul>
+     </nav>
+      
+    
+<section id="reviews">
+    <div class="review-heading">
+        <span>REVIEWS</span>
+            <h1>What they say?</h1>
+
+    </div>
+
+    <div class="container">
+      <div class="post">
+        <div class="text">Thanks for rating us!</div>
+        <div class="edit">EDIT</div>
+      </div>
+      <div class="star-widget">
+        <p>Rate us</p>
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fas fa-star"></label>
+        <form action="#">
+          <header></header>
+          <div class="textarea">
+            <textarea cols="30" placeholder="Describe your experience.."></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script>
+      const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const widget = document.querySelector(".star-widget");
+      const editBtn = document.querySelector(".edit");
+      btn.onclick = ()=>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = ()=>{
+          widget.style.display = "block";
+          post.style.display = "none";
+        }
+        return false;
+      }
+    </script>
+
+
+    <div class="overall">
+     <h5>Overall ratings</h5><p>(11k+ratings)</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+    </div>
+    <div class="review-box-container">
+        <div class="review-box">
+            <div class="box-top">
+                 <div class="profile">
+                        <div class="profile-img">
+                            <img src="images/pic-4.png">
+                        </div>
+                   
+                        <div class="name-user">
+                            <strong>Kiara Jethwani</strong>
+                            <span>@kiarajethwani142</span>
+                        </div>
+                   </div>
+
+
+                 <div class="comments">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+
+            </div>
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+        <div class="review-box">
+            <div class="box-top">
+                 <div class="profile">
+                        <div class="profile-img">
+                            <img src="images/pic-11.jpg">
+                        </div>
+                   
+                        <div class="name-user">
+                            <strong>James Max</strong>
+                            <span>@jamesmax4637</span>
+                        </div>
+                   </div>
+
+
+                 <div class="comments">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+            </div>
+
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+        <div class="review-box">
+            <div class="box-top">
+                 <div class="profile">
+                        <div class="profile-img">
+                            <img src="images/pic-12.jpg">
+                        </div>
+                   
+                        <div class="name-user">
+                            <strong>Millan Dicken</strong>
+                            <span>@millandicken0524</span>
+                        </div>
+                   </div>
+
+
+                 <div class="comments">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+            </div>
+
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+        <div class="review-box">
+            <div class="box-top">
+                 <div class="profile">
+                        <div class="profile-img">
+                            <img src="images/pic-1.png">
+                        </div>
+                   
+                        <div class="name-user">
+                            <strong>Michal B</strong>
+                            <span>@michal564</span>
+                        </div>
+                   </div>
+
+
+                 <div class="comments">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+            </div>
+
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+        <div class="review-box">
+            <div class="box-top">
+                 <div class="profile">
+                        <div class="profile-img">
+                            <img src="images/pic-2.png">
+                        </div>
+                   
+                        <div class="name-user">
+                            <strong>Jasmin Khundra</strong>
+                            <span>@jasmin0024</span>
+                        </div>
+                   </div>
+
+
+                 <div class="comments">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+            </div>
+
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+        <div class="review-box">
+            <div class="box-top">
+                 <div class="profile">
+                        <div class="profile-img">
+                            <img src="images/pic-3.png">
+                        </div>
+                   
+                        <div class="name-user">
+                            <strong>Karan T</strong>
+                            <span>@karant13783</span>
+                        </div>
+                   </div>
+
+
+                 <div class="comments">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+            </div>
+
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+        <div class="review-box">
+            <div class="box-top">
+                 <div class="profile">
+                        <div class="profile-img">
+                            <img src="images/pic-5.png">
+                        </div>
+                   
+                        <div class="name-user">
+                            <strong>Molin kamath</strong>
+                            <span>@molinkamath9836</span>
+                        </div>
+                   </div>
+
+
+                 <div class="comments">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+            </div>
+
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+        <div class="review-box">
+            <div class="box-top">
+                 <div class="profile">
+                        <div class="profile-img">
+                            <img src="images/pic-6.png">
+                        </div>
+                   
+                        <div class="name-user">
+                            <strong>Kim su-ong</strong>
+                            <span>@kimsuong1277</span>
+                        </div>
+                   </div>
+
+
+                 <div class="comments">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+            </div>
+
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+        <div class="review-box">
+            <div class="box-top">
+                 <div class="profile">
+                        <div class="profile-img">
+                            <img src="images/pic-7.jpg">
+                        </div>
+                   
+                        <div class="name-user">
+                            <strong>Lucifer</strong>
+                            <span>@lucifer836</span>
+                        </div>
+                   </div>
+
+
+                 <div class="comments">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+            </div>
+
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+        <div class="review-box">
+            <div class="box-top">
+                 <div class="profile">
+                        <div class="profile-img">
+                            <img src="images/pic-8.jpg">
+                        </div>
+                   
+                        <div class="name-user">
+                            <strong>Aman Denz</strong>
+                            <span>@amand8920</span>
+                        </div>
+                   </div>
+
+
+                 <div class="comments">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+            </div>
+
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+        <div class="review-box">
+            <div class="box-top">
+                 <div class="profile">
+                        <div class="profile-img">
+                            <img src="images/pic-9.png">
+                        </div>
+                   
+                        <div class="name-user">
+                            <strong>Mennie K L</strong>
+                            <span>@menniekl893</span>
+                        </div>
+                   </div>
+
+
+                 <div class="comments">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+            </div>
+
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+        <div class="review-box">
+            <div class="box-top">
+                 <div class="profile">
+                        <div class="profile-img">
+                            <img src="images/pic-10.jpg">
+                        </div>
+                   
+                        <div class="name-user">
+                            <strong>Ochizn S</strong>
+                            <span>@ochizns9077</span>
+                        </div>
+                   </div>
+
+
+                 <div class="comments">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                 </div>
+            </div>
+
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+    </div>       
+</section>  
+    
+</body>
+</html>
