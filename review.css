@@ -367,10 +367,13 @@ nav ul li a.active{
   background: none;
   color: red;
 }
-    .comments{
+.comments{
     font-size:50%;
-    }
-    .name-user{
+  }
+ .name-user strong{
     font-size:50%;
-    }
+  }
+.name-user span{
+     font-size:50%;
+  }
 }
