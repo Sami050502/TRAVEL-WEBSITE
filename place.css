@@ -277,7 +277,7 @@ nav ul li a.active{
   color: red;
 }
 .search-box{
-  left:70%;
+  left:50%;
   display: flex;
   font-size: 1.5rem;
   padding: 20px;
@@ -292,6 +292,6 @@ nav ul li a.active{
   font-size: 1.8rem;
 }
     .packages .box-container .box{
-        width:40%;
+        width:60%;
         margin-left:10px;
 }
