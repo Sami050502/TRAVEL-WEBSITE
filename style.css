@@ -158,7 +158,7 @@ nav ul{
   left:-100%;
   background:#111;
   height:100vh;
-  width:100%;
+  width:40%;
   display:block;
   text-align: center;
   transition: all 0.3s ease;
@@ -193,11 +193,8 @@ nav ul li a.active{
 color: #fff;
 text-shadow:2px 1px 1px black;
   }
-}
-@media(max-width: 480px){
-html{
-    overflow:hidden;
-    display:block;
+body, html{
+    overflow-x:hidden;
     }
 }
-}
+
