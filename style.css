@@ -189,7 +189,9 @@ nav ul li a.active{
   display:fixed;
 
 }
-
+.home .content p{
+  font-size:60%;
+}  
 body, html{
     overflow-x:hidden;
     }
