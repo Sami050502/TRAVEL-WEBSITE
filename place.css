@@ -291,4 +291,6 @@ nav ul li a.active{
 .search-btn{
   font-size: 1.8rem;
 }
+    .packages .box-container .box{
+        width:50%;
 }
