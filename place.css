@@ -277,7 +277,7 @@ nav ul li a.active{
   color: red;
 }
 .search-box{
-  left:50%;
+  left:70%;
   display: flex;
   font-size: 1.5rem;
   padding: 20px;
