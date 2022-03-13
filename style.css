@@ -194,6 +194,6 @@ color: #fff;
 text-shadow:2px 1px 1px black;
   }
 html{
-    overflow-x:hidden;
+    overflow:hidden;
     }
 }
