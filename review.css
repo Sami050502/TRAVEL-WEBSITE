@@ -384,5 +384,6 @@ nav ul li a.active{
     }
     .star-widget label{
         font-size:90%;
+        flex-direction:column;
 }
 }
