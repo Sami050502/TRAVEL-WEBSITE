@@ -193,10 +193,7 @@ nav ul li a.active{
 color: #fff;
 text-shadow:2px 1px 1px black;
   }
-}
-@media(max-width: 480px){
 html{
-  font-size: 70%;
     overflow-x:hidden;
     }
 }
