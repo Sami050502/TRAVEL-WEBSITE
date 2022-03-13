@@ -194,3 +194,8 @@ color: #fff;
 text-shadow:2px 1px 1px black;
   }
 }
+@media(max-width: 480px){
+body{
+  font-size: 70%;
+    }
+}
