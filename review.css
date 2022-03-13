@@ -379,12 +379,5 @@ nav ul li a.active{
  .client-comment p{
      font-size:80%;
 }
-    .container{
-    width:90%;
-    flex-direction:column;
-    }
-    .star-widget label{
-        font-size:90%;
-       
-}
+   
 }
