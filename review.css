@@ -379,3 +379,6 @@ nav ul li a.active{
  .client-comment p{
      font-size:80%;
 }
+    .container{
+    font-size:150%;}
+}
