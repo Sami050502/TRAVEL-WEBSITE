@@ -388,7 +388,7 @@ nav ul li a.active{
   font-size: 30px;
   color: #444;
   padding: 10px;
-  float: left;
+ display:inline-block;
         
   transition: all 0.2s ease;
 }
