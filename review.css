@@ -380,6 +380,6 @@ nav ul li a.active{
      font-size:80%;
 }
     .container{
-    font-size:150%;
-    margin:50px;}
+    box-width:90%;
+    }
 }
