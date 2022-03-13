@@ -276,6 +276,9 @@ nav ul li a.active{
   background: none;
   color: red;
 }
+ html,body{
+     position:fixed;
+  }
 .search-box{
   left:70%;
   display: flex;
